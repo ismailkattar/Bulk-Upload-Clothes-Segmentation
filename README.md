@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Bulk Upload Image Segmentation</h1>
+  <h1 align="center">Bulk Upload Clothes Segmentation</h1>
 </p>
 
 # Introduction
