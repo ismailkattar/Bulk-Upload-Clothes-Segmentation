@@ -52,29 +52,46 @@ Since our case need an accurate model with high speed and <a href="https://docs.
   <li>Second: Trained on 7.5K images and 1K for validation, 200 epochs, image size = 1024 and <a href="https://docs.ultralytics.com/usage/cfg/">the default YOLOv8 augmentation settings</a>.</li>
   <li>Last: Trained on 3600 images and 900 for validation, 50 epochs, image size = 640 and  <a href="https://docs.ultralytics.com/usage/cfg/">the default YOLOv8 augmentation settings</a>. </li>
 </ul>
-**Note**: For segmentation, YOLOv8 consist of five detection modules instead of 3.
+**Note** : For segmentation, YOLOv8 consist of five detection modules instead of 3.
 
 # Results
 Here are some visual and numerical validation results: 
 
+### Numerical Result
 |Run| seg_loss | cls_loss | Precision(M) | Recall(M) | mAP50(M) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | First | 1.78 | 1.59 | 0.53 | 0.39 | 0.41 |
 | Second | 1.67 | 1.49 | 0.53 | 0.32 | 0.31 |
 | Last | 1.61 | 1.29 | 0.56 | 0.46 | 0.46 |
 
-## Visual Results
-### First 
+### Visual Results
+
+<p align="center">
+  <h4 align="center">Prediciton using First Run</h1>
+</p>
+
 <div align="center">
   <img src="https://github.com/ismailkattar/ZAKA-GIT-TRAINING/blob/main/Images/First Resullt/Image 1.png" alt="Result"/>
 </div>
 
-### Second 
+<p align="center">
+  <h4 align="center">Prediciton using Second Run</h1>
+</p>
+
 <div align="center">
-  <img src="https://github.com/ismailkattar/ZAKA-GIT-TRAINING/blob/main/Images/Second Resullt/Image 1.png" alt="Result"/>
+  <img src="https://github.com/ismailkattar/ZAKA-GIT-TRAINING/blob/main/Images/Second Result/Image 1.png" alt="Result"/>
 </div>
 
-### Second 
+<p align="center">
+  <h4 align="center">Prediciton using Last Run</h1>
+</p>
+
 <div align="center">
-  <img src="https://github.com/ismailkattar/ZAKA-GIT-TRAINING/blob/main/Images/Last Resullt/Image 1.png" alt="Result"/>
+  <img src="https://github.com/ismailkattar/ZAKA-GIT-TRAINING/blob/main/Images/Last Result/Image 1.png" alt="Result"/>
 </div>
+
+# References
+
+* [iMaterialist (Fashion) 2020 at FGVC7](https://kaggle.com/competitions/imaterialist-fashion-2020-fgvc7)
+* [Fashionpedia](https://fashionpedia.github.io/home/index.html)
+* [ultralytics](https://docs.ultralytics.com/)
